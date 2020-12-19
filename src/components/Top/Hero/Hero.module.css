@@ -1,0 +1,84 @@
+.section {
+  justify-content: center;
+  height: 616px;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../../assets/bg.png');
+  background-color: rgb(119, 45, 193);
+  align-items: center;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  height: 60%;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 82%;
+}
+
+.content div:first-child {
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  justify-content: space-between;
+  width: 580px;
+}
+
+.content div:first-child div {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content div:first-child div p {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  text-decoration: underline;
+}
+
+.r {
+  align-items: flex-start;
+  display: flex;
+  height: 85%;
+  justify-content: flex-start;
+  width: 34.5%;
+}
+
+img {
+  height: 290px;
+  width: 316px;
+}
+
+@media (max-width: 40rem) {
+  .section {
+    background-position: 60%;
+    background-size: cover;
+    height: 540px;
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .r {
+    display: none;
+  }
+
+  .content div:first-child {
+    height: 100%;
+    margin-top: 4rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1441px) {
+  .section {
+    background-size: cover;
+  }
+}
