@@ -1,9 +1,11 @@
 import React from 'react';
-import FifthDiv from '../fifthDiv/FifthDiv';
+
 import FirstDiv from '../firstDiv/FirstDiv';
-import FourthDiv from '../fourthDiv/FourthDiv';
 import SecondDiv from '../secondDiv/SecondDiv';
 import ThirdDiv from '../thirdDiv/ThirdDiv';
+import FourthDiv from '../fourthDiv/FourthDiv';
+import FifthDiv from '../fifthDiv/FifthDiv';
+
 import styles from './Body.module.css';
 
 const Body = () => {

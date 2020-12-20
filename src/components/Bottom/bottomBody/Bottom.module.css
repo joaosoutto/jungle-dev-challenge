@@ -1,0 +1,14 @@
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+  justify-content: space-around;
+  padding: 3rem 0 0.5rem 0;
+}
+
+@media (max-width: 40rem) {
+  .footer {
+    padding-top: 1rem;
+  }
+}

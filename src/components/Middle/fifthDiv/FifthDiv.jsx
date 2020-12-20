@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './FifthDiv.module.css';
 
+import styles from './FifthDiv.module.css';
 import figures from '../../../assets/figures.svg';
 
 const FifthDiv = () => {
   return (
-    <div className={styles.content}>
+    <div className={`${styles.content} content`}>
       <img src={figures} />
       <h3>Coming soon: Nanny Share Daily Diary!</h3>
       <p>

@@ -1,76 +1,12 @@
 .content {
-  align-items: center;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 140px;
-  width: 70%;
-}
-
-.content h4 {
-  color: 3d3d3d;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 32px;
-}
-
-.content p {
-  color: 3d3d3d;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-form {
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2.5rem;
-  width: 60%;
-}
-
-.content input {
-  border-radius: 4px;
-  border: 1px solid #dfdfdf;
-  height: 48px;
-  padding-left: 1rem;
-  width: 232px;
-}
-
-.content button {
-  background-color: #00c88c;
-  border-radius: 4px;
-  border: none;
-  color: #fff;
-  height: 48px;
-  transition: all 0.3s;
-  width: 96px;
-}
-
-.content button:hover {
-  background-color: rgb(0, 169, 118);
-  cursor: pointer;
+  height: 200px;
 }
 
 @media (max-width: 40rem) {
   .content {
     text-align: center;
     width: 90%;
-  }
-
-  .content p {
-    font-size: 16px;
-    margin-top: 1rem;
-  }
-
-  form {
-    flex-direction: column;
-    width: 95%;
-  }
-
-  .content input,
-  .content button {
-    margin: 0.3rem 0;
-    width: 100%;
+    height: 400px;
   }
 }

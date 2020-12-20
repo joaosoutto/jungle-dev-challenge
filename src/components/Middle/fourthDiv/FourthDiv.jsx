@@ -1,13 +1,13 @@
 import React from 'react';
+
 import Hr from '../../helpers/Hr';
 import styles from './FourthDiv.module.css';
-
 import history from '../../../assets/history.svg';
 
 const FourthDiv = () => {
   return (
     <>
-      <div className={styles.content}>
+      <div className={`${styles.content} content`}>
         <div>
           <h3>A framework built for the long term</h3>
           <p>

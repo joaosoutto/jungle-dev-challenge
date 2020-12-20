@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './FirstDiv.module.css';
 
-import image from '../../../assets/notebook.svg';
 import Hr from '../../helpers/Hr';
+import styles from './FirstDiv.module.css';
+import image from '../../../assets/notebook.svg';
 
 const FirstDiv = () => {
   return (
     <>
-      <div className={styles.content}>
+      <div className={`${styles.content} content`}>
         <div>
           <h3>
             Share your home,

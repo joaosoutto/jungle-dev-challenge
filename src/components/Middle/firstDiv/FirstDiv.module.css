@@ -1,40 +1,17 @@
-.content {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-}
-
 .content div {
   display: flex;
   flex-direction: column;
-  min-height: 392px;
   justify-content: space-between;
-}
-
-.content h3 {
-  color: #3d3d3d;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 32px;
+  min-height: 392px;
 }
 
 .content p {
-  color: rgb(74, 74, 74);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
   width: 444px;
 }
 
 .content img {
   height: 392px;
   width: 584px;
-}
-
-.content a {
-  font-size: 16px;
-  font-weight: 500;
 }
 
 @media (max-width: 40rem) {
@@ -47,11 +24,8 @@
     height: 204px;
     width: 304px;
   }
-  .content h3 {
-    font-size: 22px;
-  }
+
   .content p {
-    font-size: 16px;
     width: 328px;
   }
 

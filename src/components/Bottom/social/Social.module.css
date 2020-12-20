@@ -1,0 +1,78 @@
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+  width: 100%;
+}
+
+.content img {
+  cursor: pointer;
+  height: 20px;
+  width: 70px;
+}
+
+.socialDiv,
+.linksDiv {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialDiv {
+  width: 13%;
+}
+
+.linksDiv {
+  margin-left: 3rem;
+  width: 35%;
+}
+
+.linksDiv a {
+  color: #3d3d3d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+.linksDiv a:before {
+  background-color: #3d3d3d;
+  bottom: 0;
+  content: '';
+  height: 1px;
+  left: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+  width: 0;
+}
+
+.linksDiv a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+@media (max-width: 40rem) {
+  .content {
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
+  }
+
+  .socialDiv {
+    width: 50vw;
+  }
+
+  .linksDiv {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    width: 70vw;
+  }
+
+  .linksDiv a {
+    margin: 0.3rem 1rem;
+  }
+}

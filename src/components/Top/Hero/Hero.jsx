@@ -4,7 +4,8 @@ import styles from './Hero.module.css';
 import img from '../../../assets/img1.svg';
 import Title from '../../helpers/Title';
 import Paragraph from '../../helpers/Paragraph';
-import Player from '../../helpers/Player';
+
+import player from '../../../assets/player.png';
 
 const Hero = () => {
   const [testA, setTestA] = useState(true);
@@ -23,11 +24,9 @@ const Hero = () => {
           ) : (
             <Paragraph text="Connect with other local families to share a nanny from as low as $10.00/hr each. Create your family profile today to get started." />
           )}
-          <div>
-            <Player />
-            <p href="_" onClick={() => setTestA(!testA)}>
-              See hapu in action (27 seconds)
-            </p>
+          <div onClick={() => setTestA(!testA)}>
+            <img alt="player" src={player} className={styles.player} />
+            <p href="_">See hapu in action (27 seconds)</p>
           </div>
         </div>
         <div className={styles.r}>

@@ -27,31 +27,91 @@ p {
 }
 
 .logo {
-  width: 48px;
-  height: 64px;
+  align-items: flex-end;
   background-color: rgb(0, 200, 140);
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  padding-bottom: 1rem;
+  width: 48px;
+}
+
+.logo img {
+  height: 24px;
+  width: 24px;
 }
 
 .homeTitle {
-  font-size: 40px;
   color: rgb(242, 242, 242);
+  font-size: 40px;
   font-weight: 500;
   line-height: 48px;
 }
 
 .homePar {
-  font-size: 17px;
   color: rgb(242, 242, 242);
+  font-size: 17px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .hr {
   border: 1px solid rgb(178, 178, 177);
-  width: 60%;
   margin: 6rem;
+  width: 60%;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.content h3,
+.footer h3 {
+  color: #3d3d3d;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.content p,
+.footer p {
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.content a,
+.footer a {
+  color: #5e20a4;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.socialLogo {
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.socialLogo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.socialInner {
+  height: 20px;
+  width: 18px;
 }
 
 @media (max-width: 40rem) {
@@ -66,5 +126,9 @@ p {
   .hr {
     margin: 3rem;
     width: 90%;
+  }
+  .content h3,
+  .footer h3 {
+    font-size: 22px;
   }
 }

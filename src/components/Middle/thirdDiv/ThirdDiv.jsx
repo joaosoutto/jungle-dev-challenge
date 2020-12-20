@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './ThirdDiv.module.css';
 
-import amout from '../../../assets/amount.svg';
 import Hr from '../../helpers/Hr';
+import styles from './ThirdDiv.module.css';
+import amout from '../../../assets/amount.svg';
 
 const ThirdDiv = () => {
   return (
     <>
-      <div className={styles.content}>
+      <div className={`${styles.content} content`}>
         <img alt="representation of the system" src={amout} />
         <div>
           <h3>Shared payments made simple</h3>
