@@ -1,8 +1,12 @@
 .content {
   flex-direction: column;
-  height: 270px;
+  height: 310px;
   text-align: center;
   width: 55%;
+}
+
+.content p {
+  width: 784px;
 }
 
 .content img {
@@ -16,10 +20,8 @@
     width: 90%;
   }
 
-  .content div {
-    align-items: center;
-    height: 460px;
-    margin-top: 1.5rem;
-    width: 100%;
+  .content h3,
+  .content p {
+    width: 328px;
   }
 }

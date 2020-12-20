@@ -1,6 +1,7 @@
 .content {
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
 }
 
 .content div {
@@ -12,16 +13,28 @@
   width: 80%;
 }
 
+.content p {
+  width: 784px;
+}
+
 .content img {
   height: 392px;
   margin-top: 4rem;
-  width: 100%;
+  width: 984px;
 }
 
 @media (max-width: 40rem) {
   .content {
     text-align: center;
     width: 90%;
+  }
+
+  .content h3 {
+    width: 243px;
+  }
+
+  .content p {
+    width: 328px;
   }
   .content img {
     display: none;

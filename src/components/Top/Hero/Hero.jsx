@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section className={styles.section}>
       <div className={styles.content}>
-        <div>
+        <div className={styles.dinamic}>
           {testA ? (
             <Title text="Easily create or join a local nanny share with Hapu" />
           ) : (
@@ -24,7 +24,7 @@ const Hero = () => {
           ) : (
             <Paragraph text="Connect with other local families to share a nanny from as low as $10.00/hr each. Create your family profile today to get started." />
           )}
-          <div onClick={() => setTestA(!testA)}>
+          <div className={styles.playerDiv} onClick={() => setTestA(!testA)}>
             <img alt="player" src={player} className={styles.player} />
             <p href="_">See hapu in action (27 seconds)</p>
           </div>

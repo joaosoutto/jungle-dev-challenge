@@ -8,7 +8,11 @@
   flex-direction: column;
   height: 270px;
   justify-content: space-between;
-  width: 42%;
+  width: 47%;
+}
+
+.content div p {
+  width: 484px;
 }
 
 @media (max-width: 40rem) {
@@ -17,8 +21,23 @@
     flex-direction: column;
     text-align: center;
     width: 85%;
+    text-align: center;
   }
 
+  .content div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+  }
+  .content div h3 {
+    width: 226px;
+  }
+
+  .content div p {
+    width: 328px;
+    font-size: 16px;
+  }
   .content img {
     height: 230px;
     width: 312px;
