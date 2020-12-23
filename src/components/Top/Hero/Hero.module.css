@@ -1,9 +1,9 @@
-.section {
+.sectionn {
   align-items: center;
   background-color: rgb(119, 45, 193);
   background-image: url('../../../assets/bg.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100vw 616px;
   display: flex;
   height: 616px;
   justify-content: center;
@@ -15,7 +15,7 @@
   height: 60%;
   justify-content: space-between;
   margin-top: 3rem;
-  width: 82%;
+  width: 75%;
 }
 
 .player {
@@ -56,18 +56,18 @@
 .r {
   align-items: flex-start;
   display: flex;
-  height: 85%;
+  height: 100%;
   justify-content: flex-start;
-  width: 34.5%;
+  width: 35%;
 }
 
 .img {
-  height: 350px;
-  width: 316px;
+  height: 100%;
+  width: 85%;
 }
 
 @media (max-width: 40rem) {
-  .section {
+  .sectionn {
     background-position: 60%;
     background-size: cover;
     height: 540px;

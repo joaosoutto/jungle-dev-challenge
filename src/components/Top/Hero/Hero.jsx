@@ -11,7 +11,7 @@ const Hero = () => {
   const [testA, setTestA] = useState(true);
 
   return (
-    <section className={styles.section}>
+    <section className={styles.sectionn}>
       <div className={styles.content}>
         <div className={styles.dinamic}>
           {testA ? (
