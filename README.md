@@ -1,6 +1,6 @@
 ## Jugle Dev - Front End challenge
 
-#### App made using React, Hooks and CSS.
+#### App made using React, Hooks, CSS and Axios for API calls.
 
 #### To perform the A / B tests, just click on the "See hapu in action (27 seconds)" link, next to the player icon.
 
@@ -8,4 +8,4 @@
 
 #### The project was developed in the width of 1440px and has a responsive version for mobile platforms.
 
-### Check the final result by accessing:
+### Check the final result by accessing: https://jungle-challenge.herokuapp.com/
